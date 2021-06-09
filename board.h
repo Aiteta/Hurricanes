@@ -1,3 +1,10 @@
+#include <iostream>
+#include <vector>
+#include "Zone.h"
+#include "Weather.h"
+#include "Hurricane.h"
+#include "Player.h"
+
 class Board {
   public:
 
@@ -7,6 +14,6 @@ class Board {
     std::vector<Weather> discardWeather;
     std::vector<Hurricane> activeHurricanes;
     std::vector<Hurricane> inactiHurricanes;
-    std::vector<Players> allPlayers;
+    std::vector<Player> allPlayers;
 }
 
